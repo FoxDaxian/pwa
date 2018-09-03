@@ -1,0 +1,21 @@
+{
+    "private": true,
+    "scripts": {
+        "build": "pwa export",
+        "start": "sirv build -s",
+        "watch": "pwa watch"
+    },
+    "dependencies": {
+        "ganalytics": "latest",
+        "offline-plugin": "^5.0.5",
+        "sirv-cli": "latest",
+        "vue": "latest",
+        "vue-router": "latest"
+    },
+    "devDependencies": {
+        "@pwa/cli": "latest",
+        "@pwa/preset-vue": "latest",
+        "node-sass": "latest",
+        "sass-loader": "latest"
+    }
+}
